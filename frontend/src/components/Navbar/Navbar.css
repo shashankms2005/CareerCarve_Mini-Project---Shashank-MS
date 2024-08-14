@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.navbar img{
+    width: 215px;
+    height: 80px;
+    border-radius: 34px;
+    padding-left: 50px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.nav-conttainer p{
+    padding-right: 50px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.nav-conttainer{
+    display: flex;
+    flex-direction: row;
+}

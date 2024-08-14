@@ -1,0 +1,45 @@
+.register-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .register-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .register-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .student-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .mentor-btn {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .mentor-btn:hover {
+    background-color: #007bb5;
+  }
+  
